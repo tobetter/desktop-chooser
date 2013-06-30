@@ -1,0 +1,20 @@
+#!/bin/sh
+set -e
+
+. /usr/share/debconf/confmodule
+
+log() {
+	logger -t desktop-chooser "$@"
+}
+db_get desktop-chooser/question-priority
+priority=$RET
+
+db_input $priority desktop-chooser/suite || true
+if ! db_go; then
+	exit 10 # back to main menu
+fi
+db_get desktop-chooser/suite
+if [ "$RET" = true ]; then
+fi
+
+#DEBHELPER#

@@ -1,0 +1,6 @@
+desktop-chooser (0.0.1) UNRELEASED; urgency=low
+
+  [ Petter Reinholdtsen ]
+  * Initial upload.
+
+ -- Petter Reinholdtsen <pere@debian.org>  Sun, 30 Jun 2013 19:33:15 +0200

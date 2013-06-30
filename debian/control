@@ -1,0 +1,15 @@
+Source: desktop-chooser
+Section: debian-installer
+Priority: standard
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Uploaders: Petter Reinholdtsen <pere@debian.org>
+Build-Depends: debhelper (>= 8), po-debconf
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=d-i/desktop-chooser.git
+Vcs-Git: git://anonscm.debian.org/d-i/desktop-chooser.git
+
+Package: desktop-chooser
+Architecture: any
+Depends: ${misc:Depends}
+Package-Type: udeb
+XB-Installer-Menu-Item: 1000
+Description: select the desktop suite to install
