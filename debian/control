@@ -11,5 +11,5 @@ Package: desktop-chooser
 Architecture: any
 Depends: ${misc:Depends}
 Package-Type: udeb
-XB-Installer-Menu-Item: 1000
+XB-Installer-Menu-Item: 2105
 Description: select the desktop suite to install

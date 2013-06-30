@@ -14,7 +14,8 @@ if ! db_go; then
 	exit 10 # back to main menu
 fi
 db_get desktop-chooser/suite
-if [ "$RET" = true ]; then
+if [ "$RET" ]; then
+    db_set "tasksel/desktop" "$RET"
 fi
 
 #DEBHELPER#
