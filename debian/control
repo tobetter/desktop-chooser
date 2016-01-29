@@ -4,8 +4,8 @@ Priority: standard
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 Uploaders: Petter Reinholdtsen <pere@debian.org>
 Build-Depends: debhelper (>= 8), po-debconf
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=d-i/desktop-chooser.git
-Vcs-Git: git://anonscm.debian.org/d-i/desktop-chooser.git
+Vcs-Browser: https://anonscm.debian.org/cgit/d-i/desktop-chooser.git
+Vcs-Git: https://anonscm.debian.org/git/d-i/desktop-chooser.git
 
 Package: desktop-chooser
 Architecture: any
