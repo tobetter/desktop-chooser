@@ -13,7 +13,7 @@ Description: for internal use only
 Template: desktop-chooser/suite
 Type: multiselect
 __Choices: The K Desktop Environment, GNU Object Model Environment, Lightweight X11 Desktop Environment, Xfce Desktop Environment, Sugar Learning Platform
-Choices-C: kde, gnome, lxde, xfcd, sugar
+Choices-C: kde, gnome, lxde, xfce, sugar
 Default: gnome
 _Description: Which desktop environments should be installed?
  There are several alternative Desktop environments available in
